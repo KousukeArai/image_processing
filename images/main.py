@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 import matplotlib.patches as patches
 import ImageProcessing
 
-image_path = R"C:\Users\class\Desktop\images\i3.jpg"
+image_path = R"C:\Users\class\personal_color_finder\image_processing-1\images\i3.jpg"
 
 image = ImageProcessing.Image(image_path)
 recog = ImageProcessing.Recognition()

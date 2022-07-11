@@ -98,7 +98,7 @@ class Recognition:
 
         #tmp_img_RGB = cv2.cvtColor(tmp_img, cv2.COLOR_BGR2RGB)
 
-        dlib_path = R"C:\Users\class\Desktop\images\shape_predictor_68_face_landmarks.dat"
+        dlib_path = R"C:\Users\class\personal_color_finder\image_processing-1\images\shape_predictor_68_face_landmarks.dat"
         predictor = dlib.shape_predictor(dlib_path)
         shape = predictor(img_cv2, rects[0])
 
